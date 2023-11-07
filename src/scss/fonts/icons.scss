@@ -1,0 +1,59 @@
+%ic {
+	font-family: "icons";
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+[class*="_icon-"] {
+	&:before {
+		@extend %ic;
+		display: block;
+	}
+}
+._icon-Vector-4:before {
+	content: "\e900";
+}
+
+._icon-Vector-3:before {
+	content: "\e901";
+}
+
+._icon-Vector-2:before {
+	content: "\e902";
+}
+
+._icon-open-book:before {
+	content: "\e903";
+}
+
+._icon-Vector-1:before {
+	content: "\e904";
+}
+
+._icon-study-program:before {
+	content: "\e905";
+}
+
+._icon-Ellipse:before {
+	content: "\e906";
+}
+
+._icon-Campfire:before {
+	content: "\e907";
+}
+
+._icon-vk:before {
+	content: "\e908";
+}
+
+._icon-Group:before {
+	content: "\e909";
+}
+
+._icon-Vector:before {
+	content: "\e90a";
+}

@@ -22,8 +22,10 @@ $fontFamily: "Montserrat";
 $fontSize: toRem(18); // де 14(px) - розмір шрифту за замовчуванням з макету
 
 // Основні кольори
-$mainColor: #000; // Колір шрифту за замовчуванням
-
+$mainColor: #fff; // Колір шрифту за замовчуванням
+$graphiteColor: #111518; // шрифти та фон
+$greyColor: #F1F1F1; // фон секції We guarantee
+$orangeColor: #FF6B09; // шрифт в деяких секціях
 // Палітра кольорів
 // @import "base/colors-palette";
 
@@ -34,7 +36,7 @@ $minWidth: 320;
 // Ширина полотна (макету)
 $maxWidth: 1440;
 // Ширина обмежуючого контейнера (0 = немає обмеження)
-$maxWidthContainer: 1408;
+$maxWidthContainer: 1410;
 // Загальний відступ у контейнера
 // (30 = по 15px ліворуч і праворуч, 0 = немає відступу)
 $containerPadding: 30;

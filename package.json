@@ -5,7 +5,7 @@
   "homepage": "https://artem-sedliar.github.io/BHO-NEW",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /BHO-NEW/"
+    "build": "parcel build src/*.html --public-url /goit-team-project-hell-english/"
   },
   "repository": {
     "type": "git",
